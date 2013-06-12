@@ -14,10 +14,6 @@ app.get('/', function (req, res) {
   res.sendfile(__dirname + '/graph.html');
 });
 
-app.get('/video', function (req, res) {
-  res.sendfile(__dirname + '/video.html');
-});
-
 io.sockets.on('connection', function (socket) {
   socket.emit('news', { hello: 'world' });
   socket.on('my other event', function (data) {

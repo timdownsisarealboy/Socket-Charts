@@ -6,7 +6,7 @@ Real-time charts you can communicate with using socket.io
 ## Basic Set-up
 - npm install socket.io express
 - node app.js
-- http://localhost:3001/graph.html
+- http://localhost:3001
 
 ## Update the Graph
 ```
