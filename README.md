@@ -1,7 +1,7 @@
 Socket-Charts
 =============
 
-![status](https://codeship.com/projects/YOUR_PROJECT_UUID/status?branch=master "status")
+![status](https://codeship.com/projects/170194/status?branch=master "status")
 
 Real-time charts you can communicate with using socket.io
 
